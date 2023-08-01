@@ -8,7 +8,7 @@ const authPost = require("./routes/post");
 const authCat = require("./routes/categories");
 const path = require("path");
 const multer = require("multer");
- 
+  
 dotenv.config();
 
 app.use(express.json());
